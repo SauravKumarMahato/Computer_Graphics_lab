@@ -33,7 +33,7 @@ void translation(struct Triangle tri){
 
 	
     // translated triangle plot
-    printf("\033[1;31mWELCOME TO OPENGENUS\033[0m\n");
+    printf("\033[1;31mTranslation\033[0m\n");
 	setcolor(RED);
 	line(temp_tri.x1,temp_tri.y1,temp_tri.x2, temp_tri.y2 );
 	line(temp_tri.x2,temp_tri.y2,temp_tri.x3, temp_tri.y3 );
@@ -69,7 +69,7 @@ void scaling(struct Triangle tri){
 
     // scaled  triangle plot 
 
-    printf("\033[1;34mWELCOME TO OPENGENUS\033[0m\n");
+    printf("\033[1;34mScaling\033[0m\n");
 	setcolor(BLUE);
 	line(temp_tri.x1,temp_tri.y1,temp_tri.x2, temp_tri.y2 );
 	line(temp_tri.x2,temp_tri.y2,temp_tri.x3, temp_tri.y3 );
@@ -105,7 +105,7 @@ void rotation(struct Triangle tri){
 	temp_tri.y3 += 240;
 
     // rotated triangle plot 
-    printf("\033[1;32mWELCOME TO OPENGENUS\033[0m\n");
+    printf("\033[1;32mRotation\033[0m\n");
 	setcolor(GREEN);
 	line(temp_tri.x1,temp_tri.y1,temp_tri.x2, temp_tri.y2 );
 	line(temp_tri.x2,temp_tri.y2,temp_tri.x3, temp_tri.y3 );
